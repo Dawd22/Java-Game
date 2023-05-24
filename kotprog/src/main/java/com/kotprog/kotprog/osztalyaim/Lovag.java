@@ -1,0 +1,17 @@
+package com.kotprog.kotprog.osztalyaim;
+
+public class Lovag extends Alaposztaly{
+    public String specialisKepesseg;
+
+    public Lovag(int sebzes, int eletero, int sebesseg, int kezdemenyezes, String specialisKepesseg) {
+        super(sebzes, eletero, sebesseg, kezdemenyezes);
+        this.specialisKepesseg=specialisKepesseg;
+
+    }
+
+    @Override
+    public int tamad() {
+
+        return super.tamad();
+    }
+}
